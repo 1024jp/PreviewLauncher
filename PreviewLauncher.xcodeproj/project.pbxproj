@@ -14,12 +14,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2A6FF0E128E008ED00ECFC56 /* PreviewLauncher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PreviewLauncher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6FF0E128E008ED00ECFC56 /* Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Launcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2A6FF0E428E008ED00ECFC56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2A6FF0E628E008ED00ECFC56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		2A6FF0E828E008EE00ECFC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A6FF0EB28E008EE00ECFC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2A6FF0ED28E008EE00ECFC56 /* PreviewLauncher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PreviewLauncher.entitlements; sourceTree = "<group>"; };
+		2A6FF0ED28E008EE00ECFC56 /* Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Launcher.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +36,7 @@
 		2A6FF0D828E008ED00ECFC56 = {
 			isa = PBXGroup;
 			children = (
-				2A6FF0E328E008ED00ECFC56 /* PreveiwLauncher */,
+				2A6FF0E328E008ED00ECFC56 /* Launcher */,
 				2A6FF0E228E008ED00ECFC56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -44,30 +44,29 @@
 		2A6FF0E228E008ED00ECFC56 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2A6FF0E128E008ED00ECFC56 /* PreviewLauncher.app */,
+				2A6FF0E128E008ED00ECFC56 /* Launcher.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2A6FF0E328E008ED00ECFC56 /* PreveiwLauncher */ = {
+		2A6FF0E328E008ED00ECFC56 /* Launcher */ = {
 			isa = PBXGroup;
 			children = (
 				2A6FF0E428E008ED00ECFC56 /* AppDelegate.swift */,
 				2A6FF0E628E008ED00ECFC56 /* ViewController.swift */,
 				2A6FF0E828E008EE00ECFC56 /* Assets.xcassets */,
 				2A6FF0EA28E008EE00ECFC56 /* Main.storyboard */,
-				2A6FF0ED28E008EE00ECFC56 /* PreviewLauncher.entitlements */,
+				2A6FF0ED28E008EE00ECFC56 /* Launcher.entitlements */,
 			);
-			name = PreveiwLauncher;
-			path = PreviewLauncher;
+			path = Launcher;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2A6FF0E028E008ED00ECFC56 /* PreviewLauncher */ = {
+		2A6FF0E028E008ED00ECFC56 /* Launcher */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2A6FF0F028E008EE00ECFC56 /* Build configuration list for PBXNativeTarget "PreviewLauncher" */;
+			buildConfigurationList = 2A6FF0F028E008EE00ECFC56 /* Build configuration list for PBXNativeTarget "Launcher" */;
 			buildPhases = (
 				2A6FF0DD28E008ED00ECFC56 /* Sources */,
 				2A6FF0DE28E008ED00ECFC56 /* Frameworks */,
@@ -77,9 +76,9 @@
 			);
 			dependencies = (
 			);
-			name = PreviewLauncher;
+			name = Launcher;
 			productName = AppleScriptLauncher;
-			productReference = 2A6FF0E128E008ED00ECFC56 /* PreviewLauncher.app */;
+			productReference = 2A6FF0E128E008ED00ECFC56 /* Launcher.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -110,7 +109,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2A6FF0E028E008ED00ECFC56 /* PreviewLauncher */,
+				2A6FF0E028E008ED00ECFC56 /* Launcher */,
 			);
 		};
 /* End PBXProject section */
@@ -269,7 +268,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PreviewLauncher/PreviewLauncher.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Launcher/Launcher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -296,7 +296,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = PreviewLauncher/PreviewLauncher.entitlements;
+				CODE_SIGN_ENTITLEMENTS = Launcher/Launcher.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -330,7 +331,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2A6FF0F028E008EE00ECFC56 /* Build configuration list for PBXNativeTarget "PreviewLauncher" */ = {
+		2A6FF0F028E008EE00ECFC56 /* Build configuration list for PBXNativeTarget "Launcher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A6FF0F128E008EE00ECFC56 /* Debug */,
