@@ -47,23 +47,6 @@
 		2A6FF10F28E02A0A00ECFC56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		2A6FF0DE28E008ED00ECFC56 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2A6FF0F428E00E3200ECFC56 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
 /* Begin PBXGroup section */
 		2A6FF0D828E008ED00ECFC56 = {
 			isa = PBXGroup;
@@ -117,7 +100,6 @@
 			buildConfigurationList = 2A6FF0F028E008EE00ECFC56 /* Build configuration list for PBXNativeTarget "Launcher" */;
 			buildPhases = (
 				2A6FF0DD28E008ED00ECFC56 /* Sources */,
-				2A6FF0DE28E008ED00ECFC56 /* Frameworks */,
 				2A6FF0DF28E008ED00ECFC56 /* Resources */,
 			);
 			buildRules = (
@@ -135,7 +117,6 @@
 			buildConfigurationList = 2A6FF10328E00E3200ECFC56 /* Build configuration list for PBXNativeTarget "Satellite" */;
 			buildPhases = (
 				2A6FF0F328E00E3200ECFC56 /* Sources */,
-				2A6FF0F428E00E3200ECFC56 /* Frameworks */,
 				2A6FF0F528E00E3200ECFC56 /* Resources */,
 			);
 			buildRules = (
@@ -165,7 +146,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 2A6FF0DC28E008ED00ECFC56 /* Build configuration list for PBXProject "PreviewLauncher" */;
+			buildConfigurationList = 2A6FF0DC28E008ED00ECFC56 /* Build configuration list for PBXProject "SatelliteLauncher" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -383,7 +364,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wolfrosch.AppleScriptLauncher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfrosch.Launcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -411,7 +392,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.wolfrosch.AppleScriptLauncher;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfrosch.Launcher;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -473,7 +454,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2A6FF0DC28E008ED00ECFC56 /* Build configuration list for PBXProject "PreviewLauncher" */ = {
+		2A6FF0DC28E008ED00ECFC56 /* Build configuration list for PBXProject "SatelliteLauncher" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				2A6FF0EE28E008EE00ECFC56 /* Debug */,
