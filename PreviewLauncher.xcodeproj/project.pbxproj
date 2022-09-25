@@ -11,7 +11,25 @@
 		2A6FF0E728E008ED00ECFC56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FF0E628E008ED00ECFC56 /* ViewController.swift */; };
 		2A6FF0E928E008EE00ECFC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF0E828E008EE00ECFC56 /* Assets.xcassets */; };
 		2A6FF0EC28E008EE00ECFC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF0EA28E008EE00ECFC56 /* Main.storyboard */; };
+		2A6FF0FA28E00E3200ECFC56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FF0F928E00E3200ECFC56 /* AppDelegate.swift */; };
+		2A6FF0FC28E00E3200ECFC56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FF0FB28E00E3200ECFC56 /* ViewController.swift */; };
+		2A6FF0FE28E00E3200ECFC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF0FD28E00E3200ECFC56 /* Assets.xcassets */; };
+		2A6FF10128E00E3200ECFC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF0FF28E00E3200ECFC56 /* Main.storyboard */; };
+		2A6FF10828E0106D00ECFC56 /* Satellite.app in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF0F728E00E3200ECFC56 /* Satellite.app */; };
+		2A6FF10B28E010DE00ECFC56 /* Satellite.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF10928E010DE00ECFC56 /* Satellite.sdef */; };
+		2A6FF10C28E010DE00ECFC56 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF10A28E010DE00ECFC56 /* Info.plist */; };
+		2A6FF10E28E0120D00ECFC56 /* ReceiveCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FF10D28E0120D00ECFC56 /* ReceiveCommand.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2A6FF10628E0105000ECFC56 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2A6FF0D928E008ED00ECFC56 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2A6FF0F628E00E3200ECFC56;
+			remoteInfo = Satellite;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		2A6FF0E128E008ED00ECFC56 /* Launcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Launcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -20,10 +38,26 @@
 		2A6FF0E828E008EE00ECFC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2A6FF0EB28E008EE00ECFC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A6FF0ED28E008EE00ECFC56 /* Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Launcher.entitlements; sourceTree = "<group>"; };
+		2A6FF0F728E00E3200ECFC56 /* Satellite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Satellite.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2A6FF0F928E00E3200ECFC56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2A6FF0FB28E00E3200ECFC56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A6FF0FD28E00E3200ECFC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2A6FF10028E00E3200ECFC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2A6FF10228E00E3200ECFC56 /* Satellite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Satellite.entitlements; sourceTree = "<group>"; };
+		2A6FF10928E010DE00ECFC56 /* Satellite.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Satellite.sdef; sourceTree = "<group>"; };
+		2A6FF10A28E010DE00ECFC56 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2A6FF10D28E0120D00ECFC56 /* ReceiveCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveCommand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		2A6FF0DE28E008ED00ECFC56 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A6FF0F428E00E3200ECFC56 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -37,6 +71,7 @@
 			isa = PBXGroup;
 			children = (
 				2A6FF0E328E008ED00ECFC56 /* Launcher */,
+				2A6FF0F828E00E3200ECFC56 /* Satellite */,
 				2A6FF0E228E008ED00ECFC56 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -45,6 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				2A6FF0E128E008ED00ECFC56 /* Launcher.app */,
+				2A6FF0F728E00E3200ECFC56 /* Satellite.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -61,6 +97,21 @@
 			path = Launcher;
 			sourceTree = "<group>";
 		};
+		2A6FF0F828E00E3200ECFC56 /* Satellite */ = {
+			isa = PBXGroup;
+			children = (
+				2A6FF0F928E00E3200ECFC56 /* AppDelegate.swift */,
+				2A6FF0FB28E00E3200ECFC56 /* ViewController.swift */,
+				2A6FF10D28E0120D00ECFC56 /* ReceiveCommand.swift */,
+				2A6FF0FD28E00E3200ECFC56 /* Assets.xcassets */,
+				2A6FF0FF28E00E3200ECFC56 /* Main.storyboard */,
+				2A6FF10228E00E3200ECFC56 /* Satellite.entitlements */,
+				2A6FF10A28E010DE00ECFC56 /* Info.plist */,
+				2A6FF10928E010DE00ECFC56 /* Satellite.sdef */,
+			);
+			path = Satellite;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -75,10 +126,28 @@
 			buildRules = (
 			);
 			dependencies = (
+				2A6FF10728E0105000ECFC56 /* PBXTargetDependency */,
 			);
 			name = Launcher;
 			productName = AppleScriptLauncher;
 			productReference = 2A6FF0E128E008ED00ECFC56 /* Launcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2A6FF0F628E00E3200ECFC56 /* Satellite */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2A6FF10328E00E3200ECFC56 /* Build configuration list for PBXNativeTarget "Satellite" */;
+			buildPhases = (
+				2A6FF0F328E00E3200ECFC56 /* Sources */,
+				2A6FF0F428E00E3200ECFC56 /* Frameworks */,
+				2A6FF0F528E00E3200ECFC56 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Satellite;
+			productName = Satellite;
+			productReference = 2A6FF0F728E00E3200ECFC56 /* Satellite.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -92,6 +161,9 @@
 				LastUpgradeCheck = 1410;
 				TargetAttributes = {
 					2A6FF0E028E008ED00ECFC56 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+					2A6FF0F628E00E3200ECFC56 = {
 						CreatedOnToolsVersion = 14.1;
 					};
 				};
@@ -110,6 +182,7 @@
 			projectRoot = "";
 			targets = (
 				2A6FF0E028E008ED00ECFC56 /* Launcher */,
+				2A6FF0F628E00E3200ECFC56 /* Satellite */,
 			);
 		};
 /* End PBXProject section */
@@ -119,8 +192,20 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A6FF10828E0106D00ECFC56 /* Satellite.app in Resources */,
 				2A6FF0E928E008EE00ECFC56 /* Assets.xcassets in Resources */,
 				2A6FF0EC28E008EE00ECFC56 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2A6FF0F528E00E3200ECFC56 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6FF10C28E010DE00ECFC56 /* Info.plist in Resources */,
+				2A6FF10B28E010DE00ECFC56 /* Satellite.sdef in Resources */,
+				2A6FF0FE28E00E3200ECFC56 /* Assets.xcassets in Resources */,
+				2A6FF10128E00E3200ECFC56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,13 +221,39 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		2A6FF0F328E00E3200ECFC56 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2A6FF0FC28E00E3200ECFC56 /* ViewController.swift in Sources */,
+				2A6FF10E28E0120D00ECFC56 /* ReceiveCommand.swift in Sources */,
+				2A6FF0FA28E00E3200ECFC56 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2A6FF10728E0105000ECFC56 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2A6FF0F628E00E3200ECFC56 /* Satellite */;
+			targetProxy = 2A6FF10628E0105000ECFC56 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		2A6FF0EA28E008EE00ECFC56 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				2A6FF0EB28E008EE00ECFC56 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2A6FF0FF28E00E3200ECFC56 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2A6FF10028E00E3200ECFC56 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -319,6 +430,62 @@
 			};
 			name = Release;
 		};
+		2A6FF10428E00E3200ECFC56 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Satellite/Satellite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HT3Z3A72WZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Satellite/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfrosch.Satellite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		2A6FF10528E00E3200ECFC56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Satellite/Satellite.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = HT3Z3A72WZ;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Satellite/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wolfrosch.Satellite;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -336,6 +503,15 @@
 			buildConfigurations = (
 				2A6FF0F128E008EE00ECFC56 /* Debug */,
 				2A6FF0F228E008EE00ECFC56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2A6FF10328E00E3200ECFC56 /* Build configuration list for PBXNativeTarget "Satellite" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2A6FF10428E00E3200ECFC56 /* Debug */,
+				2A6FF10528E00E3200ECFC56 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

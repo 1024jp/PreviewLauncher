@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dictionary SYSTEM "file://localhost/System/Library/DTDs/sdef.dtd">
+
+<dictionary title="Dictionary" xmlns:xi="http://www.w3.org/2003/XInclude">
+    <xi:include href="file:///System/Library/ScriptingDefinitions/CocoaStandard.sdef" xpointer="xpointer(/dictionary/suite)"/>
+    
+    <suite name="Satellite suite" code="satl" description="Satellite specific classes.">
+
+        <command name="receive" code="satlrecv" description="Receive a string object.">
+            <cocoa class="Satellite.ReceiveCommand"/>
+            <access-group identifier="*"/>
+            <direct-parameter code="mesg" type="text" description="The message to send."/>
+        </command>
+    </suite>
+</dictionary>
