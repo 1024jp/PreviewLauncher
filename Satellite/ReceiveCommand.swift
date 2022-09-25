@@ -5,7 +5,7 @@
 //  Created by 1024jp on 2022-09-25.
 //
 
-import AppKit
+import Foundation
 
 final class ReceiveCommand: NSScriptCommand {
 
@@ -13,9 +13,9 @@ final class ReceiveCommand: NSScriptCommand {
         
         guard let message = self.directParameter as? String else { return false }
         
-        let viewController = NSApp.windows.first?.contentViewController as? ViewController
-        viewController?.string = message
+        AppDelegate.shared.message = message
         
         return true
     }
+    
 }

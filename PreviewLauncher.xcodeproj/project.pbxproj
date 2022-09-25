@@ -11,14 +11,13 @@
 		2A6FF0E728E008ED00ECFC56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FF0E628E008ED00ECFC56 /* ViewController.swift */; };
 		2A6FF0E928E008EE00ECFC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF0E828E008EE00ECFC56 /* Assets.xcassets */; };
 		2A6FF0EC28E008EE00ECFC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF0EA28E008EE00ECFC56 /* Main.storyboard */; };
-		2A6FF0FA28E00E3200ECFC56 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FF0F928E00E3200ECFC56 /* AppDelegate.swift */; };
-		2A6FF0FC28E00E3200ECFC56 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FF0FB28E00E3200ECFC56 /* ViewController.swift */; };
+		2A6FF0FA28E00E3200ECFC56 /* SatelliteApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FF0F928E00E3200ECFC56 /* SatelliteApp.swift */; };
 		2A6FF0FE28E00E3200ECFC56 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF0FD28E00E3200ECFC56 /* Assets.xcassets */; };
-		2A6FF10128E00E3200ECFC56 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF0FF28E00E3200ECFC56 /* Main.storyboard */; };
 		2A6FF10828E0106D00ECFC56 /* Satellite.app in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF0F728E00E3200ECFC56 /* Satellite.app */; };
 		2A6FF10B28E010DE00ECFC56 /* Satellite.sdef in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF10928E010DE00ECFC56 /* Satellite.sdef */; };
 		2A6FF10C28E010DE00ECFC56 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A6FF10A28E010DE00ECFC56 /* Info.plist */; };
 		2A6FF10E28E0120D00ECFC56 /* ReceiveCommand.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FF10D28E0120D00ECFC56 /* ReceiveCommand.swift */; };
+		2A6FF11028E02A0A00ECFC56 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2A6FF10F28E02A0A00ECFC56 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,14 +38,13 @@
 		2A6FF0EB28E008EE00ECFC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A6FF0ED28E008EE00ECFC56 /* Launcher.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Launcher.entitlements; sourceTree = "<group>"; };
 		2A6FF0F728E00E3200ECFC56 /* Satellite.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Satellite.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2A6FF0F928E00E3200ECFC56 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		2A6FF0FB28E00E3200ECFC56 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2A6FF0F928E00E3200ECFC56 /* SatelliteApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SatelliteApp.swift; sourceTree = "<group>"; };
 		2A6FF0FD28E00E3200ECFC56 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2A6FF10028E00E3200ECFC56 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2A6FF10228E00E3200ECFC56 /* Satellite.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Satellite.entitlements; sourceTree = "<group>"; };
 		2A6FF10928E010DE00ECFC56 /* Satellite.sdef */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = Satellite.sdef; sourceTree = "<group>"; };
 		2A6FF10A28E010DE00ECFC56 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2A6FF10D28E0120D00ECFC56 /* ReceiveCommand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReceiveCommand.swift; sourceTree = "<group>"; };
+		2A6FF10F28E02A0A00ECFC56 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,11 +98,10 @@
 		2A6FF0F828E00E3200ECFC56 /* Satellite */ = {
 			isa = PBXGroup;
 			children = (
-				2A6FF0F928E00E3200ECFC56 /* AppDelegate.swift */,
-				2A6FF0FB28E00E3200ECFC56 /* ViewController.swift */,
+				2A6FF0F928E00E3200ECFC56 /* SatelliteApp.swift */,
+				2A6FF10F28E02A0A00ECFC56 /* ContentView.swift */,
 				2A6FF10D28E0120D00ECFC56 /* ReceiveCommand.swift */,
 				2A6FF0FD28E00E3200ECFC56 /* Assets.xcassets */,
-				2A6FF0FF28E00E3200ECFC56 /* Main.storyboard */,
 				2A6FF10228E00E3200ECFC56 /* Satellite.entitlements */,
 				2A6FF10A28E010DE00ECFC56 /* Info.plist */,
 				2A6FF10928E010DE00ECFC56 /* Satellite.sdef */,
@@ -205,7 +202,6 @@
 				2A6FF10C28E010DE00ECFC56 /* Info.plist in Resources */,
 				2A6FF10B28E010DE00ECFC56 /* Satellite.sdef in Resources */,
 				2A6FF0FE28E00E3200ECFC56 /* Assets.xcassets in Resources */,
-				2A6FF10128E00E3200ECFC56 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -225,9 +221,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2A6FF0FC28E00E3200ECFC56 /* ViewController.swift in Sources */,
 				2A6FF10E28E0120D00ECFC56 /* ReceiveCommand.swift in Sources */,
-				2A6FF0FA28E00E3200ECFC56 /* AppDelegate.swift in Sources */,
+				2A6FF0FA28E00E3200ECFC56 /* SatelliteApp.swift in Sources */,
+				2A6FF11028E02A0A00ECFC56 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,14 +242,6 @@
 			isa = PBXVariantGroup;
 			children = (
 				2A6FF0EB28E008EE00ECFC56 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2A6FF0FF28E00E3200ECFC56 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2A6FF10028E00E3200ECFC56 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -443,9 +431,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Satellite/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "©︎ 2022 1024jp";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
@@ -471,9 +457,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Satellite/Info.plist;
-				INFOPLIST_KEY_NSHumanReadableCopyright = "";
-				INFOPLIST_KEY_NSMainStoryboardFile = Main;
-				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "©︎ 2022 1024jp";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",

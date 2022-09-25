@@ -1,20 +1,21 @@
 //
 //  ViewController.swift
-//  PreviewLauncher
+//  Launcher
 //
 //  Created by 1024jp on 2022-09-25.
 //
 
 import Cocoa
 
-final class ViewController: NSViewController {
+@MainActor final class ViewController: NSViewController {
 
-    @objc dynamic var string = "moof!"
+    @objc dynamic private var string = "moof!"
     
     private let applicationPath: String = Bundle.main.path(forResource: "Satellite", ofType: "app")!
     
     
     
+    // MARK: Actions
     
     @IBAction func launch(_ sender: Any?) {
         
@@ -30,6 +31,8 @@ final class ViewController: NSViewController {
     
     
     
+    // MARK: Private Methods
+    
     private func run(command: String) {
         
         Task.detached {
@@ -44,7 +47,6 @@ final class ViewController: NSViewController {
             }
         }
     }
-    
     
 }
 
